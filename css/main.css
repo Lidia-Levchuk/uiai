@@ -1,0 +1,215 @@
+html {
+  font-size: 15px;
+}
+ul {
+  padding-left: 0px; }
+
+.listVisibilityOn {
+  display: block; }
+
+.listVisibilityOff {
+  display: none; }
+
+.pageVisibilityOff {
+  display: none; }
+
+.wlistVisibilityOn {
+  display: block; }
+
+.wlistVisibilityOff {
+  display: none; }
+
+.all__page {
+  margin-left: auto;
+  margin-right: auto; }
+
+#first {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.tickets-card {
+  display: block;
+  -webkit-box-align: normal;
+  -webkit-align-items: normal;
+      -ms-flex-align: normal;
+          align-items: normal; }
+
+.tickets-card .ticket-float {
+  display: block;
+  -webkit-box-align: normal;
+  -webkit-align-items: normal;
+      -ms-flex-align: normal;
+          align-items: normal; }
+
+.badge-success, .badge-bad, .badge-ad {
+  color: #fff;
+  background-color: #3bb001; }
+  .badge-success a.badge-success:hover, .badge-bad a.badge-success:hover, .badge-ad a.badge-success:hover, .badge-success a.badge-bad:hover, .badge-bad a.badge-bad:hover, .badge-ad a.badge-bad:hover, .badge-success a.badge-ad:hover, .badge-bad a.badge-ad:hover, .badge-ad a.badge-ad:hover, .badge-success a.badge-success:focus, .badge-bad a.badge-success:focus, .badge-ad a.badge-success:focus, .badge-success a.badge-bad:focus, .badge-bad a.badge-bad:focus, .badge-ad a.badge-bad:focus, .badge-success a.badge-ad:focus, .badge-bad a.badge-ad:focus, .badge-ad a.badge-ad:focus {
+    color: #fff;
+    background-color: #2a7d01; }
+  .badge-success a.badge-success:focus, .badge-bad a.badge-success:focus, .badge-ad a.badge-success:focus, .badge-success a.badge-bad:focus, .badge-bad a.badge-bad:focus, .badge-ad a.badge-bad:focus, .badge-success a.badge-ad:focus, .badge-bad a.badge-ad:focus, .badge-ad a.badge-ad:focus, .badge-success a.badge-success.focus, .badge-bad a.badge-success.focus, .badge-ad a.badge-success.focus, .badge-success a.focus.badge-bad, .badge-bad a.focus.badge-bad, .badge-ad a.focus.badge-bad, .badge-success a.focus.badge-ad, .badge-bad a.focus.badge-ad, .badge-ad a.focus.badge-ad {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(59, 176, 1, 0.5);
+            box-shadow: 0 0 0 0.2rem rgba(59, 176, 1, 0.5); }
+
+.badge-bad {
+  background-color: #dc3545; }
+
+.badge-ad {
+  background-color: goldenrod; }
+
+.card-body {
+  padding: 0.95rem; }
+
+.bd {
+  border: none; }
+
+.logo {
+  height: 90px; }
+
+.az-logo:hover {
+  color: black; }
+
+.az-logo:active {
+  color: black; }
+
+.fs-22 {
+  font-size: 22px; }
+
+.fs-15-success, .fs-15-bad {
+  font-size: 15px;
+  vertical-align: top; }
+
+.fs-15-bad {
+  vertical-align: bottom; }
+
+.dis-none {
+  display: none; }
+
+.page-title {
+  display: inline-block; }
+
+.moderation-opacity {
+  opacity: 0.5; }
+
+a.nav-link.active {
+  font-weight: bold !important; }
+
+a.nav-link {
+  background-color: transparent !important;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  padding: 0 !important;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch; }
+
+.forfeit {
+  margin: 0 0 10px auto !important;
+  display: block !important; }
+
+.c-black {
+  color: black; }
+
+.va {
+  vertical-align: center;
+  margin-left: auto; }
+
+.modal__btn {
+  position: absolute;
+  right: 0.95rem;
+  top: 55px;
+  border: none;
+  background-color: transparent; }
+
+.modal__link {
+  border-bottom: 1px solid #36f; }
+
+.comment {
+  padding-left: 20px;
+  font-size: 10px; }
+
+.comment:before {
+  content: '*'; }
+
+.comment:after {
+  content: '*'; }
+
+.form__field {
+  margin: 0px 0px 10px;
+  border-color: black;
+  border-radius: 3px; }
+
+.form__field:hover, .form__field:focus {
+  border: 2px solid black; }
+
+.form__field:focus {
+  color: black; }
+
+.form__label {
+  margin: 5px 0px 10px;
+  color: black; }
+
+.form__btn {
+  margin: 10px 0px 0px;
+  border-radius: 3px;
+  width: 100%; }
+  .form__btn a {
+    color: white !important; }
+
+.form__wrapper {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 20px 20px;
+  margin-top: 20px;
+  position: relative;
+  border-color: black;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 2px 0.2px black;
+          box-shadow: 0px 0px 2px 0.2px black; }
+
+.az-footer {
+  padding-bottom: 10px; }
+
+.form__btn_close {
+  margin: 10px auto;
+  display: block; }
+
+.form__close {
+  position: absolute;
+  right: 6px;
+  top: 5px; }
+
+.cadr {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 500px;
+  margin-top: 100px; }
+
+.cadr__wrapper {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-color: white; }
+
+.nav__links {
+  margin-left: 0px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .modal__btn {
+    top: 23px; }
+  .tickets-card {
+    padding: 15px 0px; }
+  h5 {
+    font-size: 0.8rem; }
+  h5.page-title {
+    font-size: 17.5px; } }
+
+@media screen and (max-width: 385px) {
+  h5.page-title {
+    max-width: 70%; } }
